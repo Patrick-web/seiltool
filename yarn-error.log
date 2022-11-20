@@ -1,0 +1,70 @@
+Arguments: 
+  /home/jp/.nvm/versions/node/v16.17.0/bin/node /home/jp/.nvm/versions/node/v16.17.0/bin/yarn
+
+PATH: 
+  /home/jp/.bun/bin:/home/jp/anaconda3/bin:/home/jp/.local/share/pnpm:/home/jp/.local/bin:/home/jp/.fly/bin:/home/jp/.deno/bin:/home/jp/.config/rofi/scripts:/home/jp/.deta/bin:/home/jp/.deta/bin:/home/jp/.bun/bin:/home/jp/anaconda3/bin:/home/jp/.local/share/pnpm:/home/jp/.local/bin:/home/jp/.fly/bin:/home/jp/.deno/bin:/home/jp/.config/rofi/scripts:/home/jp/.deta/bin:/home/jp/.deta/bin:/home/jp/.local/bin:/home/jp/.nvm/versions/node/v16.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jp/Android/Sdk/emulator:/home/jp/Android/Sdk/platform-tools:/home/jp/Android/Sdk/emulator:/home/jp/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:704:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1590:19)
+      at TLSSocket.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "electron-vue-vite",
+    "version": "2.0.0",
+    "main": "dist-electron/main/index.js",
+    "description": "Really simple Electron + Vue + Vite boilerplate.",
+    "author": "草鞋没号 <308487730@qq.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build && electron-builder"
+    },
+    "engines": {
+      "node": "^14.18.0 || >=16.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^3.1.2",
+      "electron": "^21.1.0",
+      "electron-builder": "^23.3.3",
+      "typescript": "^4.8.4",
+      "vite": "^3.2.2",
+      "vite-plugin-electron": "^0.10.4",
+      "vite-plugin-electron-renderer": "^0.11.3",
+      "vue": "^3.2.40",
+      "vue-tsc": "^1.0.9"
+    },
+    "debug": {
+      "env": {
+        "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344"
+      }
+    },
+    "keywords": [
+      "electron",
+      "rollup",
+      "vite",
+      "vue3",
+      "vue"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
