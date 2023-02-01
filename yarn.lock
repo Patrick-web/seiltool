@@ -1618,10 +1618,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==
 
-primevue@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/primevue/-/primevue-3.20.0.tgz#9c847975ae8d928b17ec9c2bfa4719c479f4c651"
-  integrity sha512-qLIp1Bwf7lk/ZAvQXqemkoUMh7WQwmVy/Cp8PR+uGGd6szxC0QZWAit/gSjSjD55gZJDtbsiHFVB2a78gN7tdA==
+primevue@^3.23.0:
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/primevue/-/primevue-3.23.0.tgz#723b7a53e562153e4429786b6b6050f638c503f5"
+  integrity sha512-WyJwvVRJbuCPAId3qDwQVPXgOli4gc9yxdZZyY/3Ml0/asHHH3LR7+MMvjIHXg/AN+XX5SBVPPJkObxP8cJuaw==
 
 progress@^2.0.3:
   version "2.0.3"
